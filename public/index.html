@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            text-align: right;
+            line-height: 26px;
+            margin-bottom: 10px;
+        }
+        input {
+            height: 20px;
+            flex: 0 0 200px;
+            margin-left: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    <form action="/stdReg" method="post">
+       
+            <label for="userName">Name:
+                <input type="text" name="userName"  id="userName" placeholder="Enter your Name">
+            </label>
+
+            <label for="userEmail">Email:
+                <input type="text" name="userEmail" id="userEmail" placeholder="Email Id">
+            </label>
+       
+        
+            <label for="userMobileNo">Mobile No.:
+                <input type="number" name="userMobileNo" id="userMobileNo" placeholder="10 Digits Mobile Number">
+            </label>
+    
+            <label for="city">City:
+                <input type="text" name="city" id="city" placeholder="Nearest City">
+            </label>
+            <button>Submit</button>
+    </form>
+</body>
+</html>
